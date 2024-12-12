@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quest</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Top Navbar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="questions.html">Questions</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Question Section -->
+    <div class="question-container">
+        <h2>Question 1: Print "Hello" in Python</h2>
+        <p>Type the code to print "Hello" in Python in the box below:</p>
+        </p>Make sure to have the letter "H" in "Hello" to be capital
+        <textarea id="answer" rows="4" cols="50" placeholder="Type your code here"></textarea><br>
+        <button onclick="checkAnswer()">Check Answer</button>
+        <button id="hint-button" onclick="showHint()" style="display:none;">Need a Hint?</button>
+        <p id="hint" style="display:none; color: #ffcc00;">Hint: Use the print function!</p>
+        <p id="result"></p>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

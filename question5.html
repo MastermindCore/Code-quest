@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quest</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Top Navbar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="questions.html">Questions</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Question Section for Question 5 -->
+    <div class="question-container">
+        <h2>Question 5: Convert String to Uppercase</h2>
+        <p>Create a program that takes a string and prints it in uppercase:</p>
+        <textarea id="answer5" rows="4" cols="50" placeholder="Type your code here"></textarea><br>
+        <button onclick="checkAnswer5()">Check Answer</button>
+        <button id="hint-button5" onclick="showHint5()" style="display:none;">Need a Hint?</button>
+        <p id="hint5" style="display:none; color: #ffcc00;">Hint: Use the upper() method for strings!</p>
+        <p id="result5"></p>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

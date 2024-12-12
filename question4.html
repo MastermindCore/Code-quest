@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quest</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Top Navbar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="questions.html">Questions</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Question Section -->
+    <div class="question-container">
+        <h2>Question 4: Calculate the Square of a Number</h2>
+        <p>Type a Python program that calculates the square of a number stored in the variable `num` and outputs the result:</p>
+        <p>make sure to store the answer in the variable result then print the answer</p>
+        <textarea id="answer4" rows="4" cols="50" placeholder="Type your code here"></textarea><br>
+        <button onclick="checkAnswer4()">Check Answer</button>
+        <button id="hint-button4" onclick="showHint4()" style="display:none;">Need a Hint?</button>
+        <p id="hint4" style="display:none; color: #ffcc00;">Hint: Multiply the number by itself.</p>
+        <p id="result4"></p>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
